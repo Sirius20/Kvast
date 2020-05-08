@@ -8,10 +8,10 @@
   <body>
 
     <div class="header">
-      <div class="container">
+      <div class="container container_size_s">
         <div class="header__nav clearfix">
-          <div class="logo"><img src="img/logo.png" alt="Кваст" width="140px" height="80px"></div>
-          <ul class="menu clearfix">
+          <div class="logo"><img src="img/logo.png" alt="Кваст" width="140px" height="77px"></div>
+          <ul class="menu">
             <li class="menu__item"><a class="menu__link" href="#">История</a></li>
             <li class="menu__item"><a class="menu__link" href="#">Производство</a></li>
             <li class="menu__item"><a class="menu__link" href="#">Ассортимент</a></li>
@@ -22,43 +22,52 @@
       </div>
     </div>
 
-    <div class="news">
-      <h2>Новинки</h2>
-      <h3>Вахтёр</h3>
-      <table>
-        <tr>
-          <td>Алк.</td>
-          <td>&lt; 1%</td>
-        </tr>
-        <tr>
-          <td>Ккал</td>
-          <td>35</td>
-        </tr>
-      </table>
-      <p>Ржаной хлеб, Вода, Солод, Соль</p>
-      <img src="img/bottle-left.jpg">
-      <p>Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!</p>
-      <a href="#">Подробнее</a> <a href="#">Купить</a> <b>150 Р.</b>
-      <h3>Романтик</h3>
-      <table>
-        <tr>
-          <td>Алк.</td>
-          <td>&lt; 0,5%</td>
-        </tr>
-        <tr>
-          <td>Ккал</td>
-          <td>27</td>
-        </tr>
-      </table>
-      <p>Ячменный хлеб, Вода, Солод, Апельсин</p>
-      <img src="img/bottle-right.jpg">
-      <p>Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня.</p>
-      <a href="#">Подробнее</a> <a href="#">Купить</a> <b>90 Р.</b>
+    <div class="container container_size_s new-items clearfix">
+      <h2 class="heading-two">Новинки</h2>
+      <div class="new-items__column clearfix">
+        <h3 class="heading-two">Вахтёр</h3>
+        <table class="new-items__table">
+          <caption>Ржаной хлеб, Вода, Солод, Соль</caption>
+          <tr>
+            <td>Алк.</td>
+            <td>&lt; 1%</td>
+          </tr>
+          <tr>
+            <td>Ккал</td>
+            <td>35</td>
+          </tr>
+        </table>
+        <div class="new-items__img">
+          <img src="img/bottle-left.jpg">
+        </div>
+        <p>Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!</p>
+        <a class="button button_detail" href="#">Подробнее</a> <a class="button button_buy" href="#">Купить</a> <b>150 Р.</b>
+      </div>
+      <div class="new-items__column clearfix">
+        <h3 class="heading-two">Романтик</h3>
+        <table class="new-items__table">
+          <caption>Ячменный хлеб, Вода, Солод, Апельсин</caption>
+          <tr>
+            <td>Алк.</td>
+            <td>&lt; 0,5%</td>
+          </tr>
+          <tr>
+            <td>Ккал</td>
+            <td>27</td>
+          </tr>
+        </table>
+        <div class="new-items__img">
+          <img src="img/bottle-right.jpg">
+        </div>
+        <p>Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня.</p>
+        <a class="button button_detail" href="#">Подробнее</a> <a class="button button_buy" href="#">Купить</a> <b>90 Р.</b>
+      </div>
     </div>
+
     <div class="features">
       <ul>
         <li>
-          <h2>Варим сами</h2>
+          <h2 class="">Варим сами</h2>
           <p>Вот этими самыми руками. Экспериментируем и творим, что хотим.</p>
         </li>
         <li>
@@ -72,7 +81,7 @@
       </ul>
     </div>
     <div class="our_history">
-      <h2>Немного истории</h2>
+      <h2 class="heading-two">Немного истории</h2>
       <dl>
         <dt>Происхождение кваса <i>Источник: <a href="#">ru.wikipedia.org</a></i></dt>
         <dd>
@@ -87,15 +96,15 @@
       </dl>
     </div>
     <div class="press">
-      <h2>Пресса о нас</h2>
+      <h2 class="heading-two">Пресса о нас</h2>
       <blockquote>
         <p>Сегодня мы провели дегустацию чего-то действительно новенького — крафтового кваса. Да, да, вы не ослышались! Спасибо Арсену и Руслану за то, что предоставили целую бочку своего напитка!
         </p>
-        <cite>Газета столичный Стольник</cite> <a href="#">Читать далее</a>
+        <cite>Газета столичный Стольник</cite> <a class="button" href="#">Читать далее</a>
       </blockquote>
     </div>
     <div>
-      <h2>Ассортимент</h2>
+      <h2 class="heading-two">Ассортимент</h2>
       <table>
         <tr>
           <th>Название</th>
@@ -135,7 +144,7 @@
       </table>
     </div>
     <div>
-      <h2>Заказать</h2>
+      <h2 class="heading-two">Заказать</h2>
       <p>Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
       <form action="#" method="POST">
         <label for="fullname">Представьтесь:</label>
@@ -155,8 +164,9 @@
       </form>
       <input type="checkbox" name="agree" id="agree" checked>
       <label for="agree">Я согласен получать квасную рассылку</label><br>
-      <input type="submit" value="Отправить заказ">
+      <input class="button" type="submit" value="Отправить заказ">
     </div>
+
     <div class="footer">
       <span class="logo"><img src="img/logo.png" alt="Кваст"></span>
       <ul>
