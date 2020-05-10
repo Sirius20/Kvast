@@ -1,4 +1,5 @@
 .features {
+  min-width: 1200px;
   background-color: #ffcb78;
   padding-top: 80px;
   padding-bottom: 85px;
@@ -13,7 +14,7 @@
 .feature__item {
   border-right: 1px solid #e5b66c;
   padding-right: 97px;
-  padding-left: 97px;
+  padding-left: 99px;
   float: left;
   width: 205px;
   height: 245px;
@@ -21,10 +22,14 @@
 }
 
 .feature__item:last-child {
-  border-right: transparent;
+  border-right: none;
   padding-right: 0;
   width: 210px
 }
 .feature__item:first-child {
   padding-left: 0;
+}
+
+.feature__img {
+  margin-bottom: 30px;
 }

@@ -1,5 +1,5 @@
 .header {
-  background: #885812 url("img/wheat-back.jpg") no-repeat bottom;
+  background: #885812 url("img/wheat-back.jpg") bottom no-repeat ;
   background-size: cover;
   min-height: 490px;
   color: white;

@@ -6,10 +6,13 @@ body {
   line-height: 30px;
   padding: 0;
   margin: 0;
-  color: 404040;
+  color: #404040;
   background-color: white;
 }
 
+p {
+  margin: 0;
+}
 .heading {
   font-family: "Arial", sans-serif;
   font-weight: bold;
@@ -20,8 +23,8 @@ body {
 .heading__main {
   font-size: 40px;
   line-height: 60px;
-  margin-top: 75px;
-  margin-bottom: 80px;
+  margin-top: 80px;
+  margin-bottom: 60px;
 }
 
 .heading_items {
@@ -29,10 +32,10 @@ body {
   margin: 0;
 }
 
-.heading__features {
+.heading__mini {
   font-size: 20px;
   line-height: 30px;
-  padding-top: 25px;
+  padding-bottom: 20px;
 }
 
 .clearfix::after {

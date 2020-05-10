@@ -6,19 +6,20 @@
 .new-items__column {
   position: relative;
   float: left;
-  width: 333px;
+  width: 338px;
   padding-left: 35px;
-  padding-right: 30px;
-  
+  padding-right: 25px;
+  margin-top: 15px;
   border-left: 1px solid #e5e5e5;
   border-right: 1px solid #e5e5e5;
 }
 .new-items__column:last-child {
   border-left: 0;
-  width: 334px;
+  width: 339px;
 }
 
 .new-items__img {
   float: left;
   padding-left: 10px;
+  padding-bottom: 10px;
 }

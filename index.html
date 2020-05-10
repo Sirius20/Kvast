@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="new-items/new-items.css">
     <link rel="stylesheet" href="new-items/new-items__table.css">
     <link rel="stylesheet" href="features/features.css">
+    <link rel="stylesheet" href="history/history.css">
 
   </head>
   <body>
@@ -77,49 +78,53 @@
       <div class="container container_size_m ">
         <ul class="features__list clearfix">
           <li class="feature__item">
-            <img src="img/icon-brew.png">
-            <h2 class="heading heading__features">Варим сами</h2>
+            <img src="img/icon-brew.png" class="feature__img">
+            <h2 class="heading heading__mini">Варим сами</h2>
             <p>Вот этими самыми руками. Экспериментируем и творим, что хотим.</p>
           </li>
           <li class="feature__item">
-            <img src="img/icon-matreshka.png">
-            <h2 class="heading heading__features">Своё, родное</h2>
+            <img src="img/icon-matreshka.png" class="feature__img">
+            <h2 class="heading heading__mini">Своё, родное</h2>
             <p>Не заработка ради, а импортозамещения для. Поднимаем производство.</p>
           </li>
           <li class="feature__item">
-            <img src="img/icon-thumbsup.png">
-            <h2 class="heading heading__features">Не экономим</h3>
+            <img src="img/icon-thumbsup.png" class="feature__img">
+            <h2 class="heading heading__mini">Не экономим</h3>
             <p>Человек это то, что он ест и пьёт. У нас только качественные ингредиенты.</p>
           </li>
         </ul>
       </div>
     </div>
 
-    <div class="our_history">
-      <h2 class="heading-main">Немного истории</h2>
-      <dl>
-        <dt>Происхождение кваса <i>Источник: <a href="#">ru.wikipedia.org</a></i></dt>
-        <dd>
-          <img src="img/wiki-1.png">
-          <p>Квас на Руси появился в X-XI веке. Само слово «квас» тоже имеет древнерусское происхождение. Помимо России квас готовят в Белоруссии, Сербии, Македонии, Словакии и многих других странах, но называется он везде одинаково — квас.</p>
-        </dd>
-        <dt>Классификация кваса <i>Источник: <a href="#">ru.wikipedia.org</a></i></dt>
-        <dd>
-          <img src="img/wiki-2.png">
-          <p>По российскому ГОСТу для промышленного изготовления — это напиток с объёмной долей этилового спирта не более 1,2%, изготовленный в результате незавершённого спиртового и молочнокислого брожения сусла.</p>
-        </dd>
-      </dl>
+    <div class="container container_size_s">
+      <div class="history">
+        <h2 class="heading heading__main">Немного истории</h2>
+        <dl class="history__block">
+          <dt class="heading heading__mini">Происхождение кваса <i class="history__reference">Источник: <a class="history__link" href="#">ru.wikipedia.org</a></i></dt>
+          <dd class="history__description clearfix">
+            <img src="img/wiki-1.png" class="history__img">
+            <p>Квас на Руси появился в X-XI веке. Само слово «квас» тоже имеет древнерусское происхождение. Помимо России квас готовят в Белоруссии, Сербии, Македонии, Словакии и многих других странах, но называется он везде одинаково — квас.</p>
+          </dd>
+          <dt class="heading heading__mini">Классификация кваса <i class="history__reference">Источник: <a class="history__link" href="#">ru.wikipedia.org</a></i></dt>
+          <dd class="history__description clearfix">
+            <img src="img/wiki-2.png" class="history__img">
+            <p>По российскому ГОСТу для промышленного изготовления — это напиток с объёмной долей этилового спирта не более 1,2%, изготовленный в результате незавершённого спиртового и молочнокислого брожения сусла.</p>
+          </dd>
+        </dl>
+      </div>
     </div>
-    <div class="press">
-      <h2 class="heading-main">Пресса о нас</h2>
-      <blockquote>
-        <p>Сегодня мы провели дегустацию чего-то действительно новенького — крафтового кваса. Да, да, вы не ослышались! Спасибо Арсену и Руслану за то, что предоставили целую бочку своего напитка!
-        </p>
-        <cite>Газета столичный Стольник</cite> <a class="button" href="#">Читать далее</a>
-      </blockquote>
-    </div>
+
+      <div class="press">
+        <h2 class="heading heading__main">Пресса о нас</h2>
+        <blockquote>
+          <p>Сегодня мы провели дегустацию чего-то действительно новенького — крафтового кваса. Да, да, вы не ослышались! Спасибо Арсену и Руслану за то, что предоставили целую бочку своего напитка!
+          </p>
+          <cite>Газета столичный Стольник</cite> <a class="button" href="#">Читать далее</a>
+        </blockquote>
+      </div>
+    
     <div>
-      <h2 class="heading-main">Ассортимент</h2>
+      <h2 class="heading heading__main">Ассортимент</h2>
       <table>
         <tr>
           <th>Название</th>
@@ -159,7 +164,7 @@
       </table>
     </div>
     <div>
-      <h2 class="heading-main">Заказать</h2>
+      <h2 class="heading heading__main">Заказать</h2>
       <p>Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
       <form action="#" method="POST">
         <label for="fullname">Представьтесь:</label>

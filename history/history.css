@@ -1,0 +1,42 @@
+.history {
+  background-color: white;
+}
+
+.history__block {
+margin: 0;
+}
+
+.history__block dt:nth-of-type(2n){
+  margin-top: 60px;
+}
+
+.history__reference {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  font-style: italic;
+  text-transform: none;
+  float: right;
+}
+
+.history__description {
+  margin: 0;
+}
+
+.history__link {
+  color: #834700;
+}
+
+.history__link:hover {
+  color: #6a3900;
+}
+
+.history__link:active {
+  color: rgba(131, 71, 0, 0.3);
+}
+
+.history__img {
+  float: right;
+  margin-left: 110px;
+}
