@@ -1,0 +1,11 @@
+.container {
+  margin: 0 auto;
+}
+
+.container_size_s {
+  width: 800px;
+}
+
+.container_size_m {
+  width: 1015px;
+}

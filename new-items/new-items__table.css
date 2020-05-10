@@ -1,0 +1,22 @@
+.new-items__table {
+  border-collapse: collapse;
+  float: right;
+  position: absolute;
+  right: 30px;
+}
+.new-items__table td{
+  border: 1px solid #e5e5e5;
+  width: 60px;
+  font-weight: bold;
+  line-height: 41px;
+  padding: 0;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+.new-items__table caption {
+  caption-side: bottom;
+  text-align: left;
+  font-size: 14px;
+  line-height: 24px;
+}

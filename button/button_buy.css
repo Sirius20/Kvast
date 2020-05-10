@@ -1,0 +1,17 @@
+.button_buy {
+  background-color: #834700;
+  color: white;
+  border: 2px solid #834700;
+  margin-right: 15px;
+}
+
+.button_buy:hover {
+  background-color: #6a3900;
+  border: 2px solid #6a3900;
+}
+
+.button_buy:active {
+  background-color: #6a3900;
+  color: rgba(255, 255, 255, 0.3);
+  border: 2px solid #6a3900;
+}

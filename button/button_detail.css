@@ -1,0 +1,16 @@
+.button_detail {
+  background-color: white;
+  border: 2px solid #834700;
+  color: #834700;
+  margin-right: 5px;
+}
+
+.button_detail:hover {
+  border: 2px solid #6a3900;
+  color: #6a3900;
+}
+
+.button_detail:active {
+  border: 2px solid rgba(131, 71, 0, 0.3);
+  color: rgba(131, 71, 0, 0.3);;
+}

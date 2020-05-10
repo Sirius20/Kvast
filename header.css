@@ -1,0 +1,19 @@
+.header {
+  background: #885812 url("img/wheat-back.jpg") no-repeat bottom;
+  background-size: cover;
+  min-height: 490px;
+  color: white;
+  padding-top: 60px;
+}
+
+.header__nav {
+  margin-bottom: 120px;
+}
+
+.header__promo {
+  font-family: inherit;
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: bold;
+  text-align: center;
+}

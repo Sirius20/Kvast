@@ -1,0 +1,13 @@
+.menu__link {
+  color: white;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.menu__link:hover {
+  color: #ffcb78;
+}
+
+.menu__link:active {
+  color: rgba(255, 203, 120, 0.3);
+}

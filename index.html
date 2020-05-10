@@ -4,6 +4,17 @@
     <meta charset="utf-8">
     <title>Кваст</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="containers.css">
+    <link rel="stylesheet" href="button/button.css">
+    <link rel="stylesheet" href="button/button_buy.css">
+    <link rel="stylesheet" href="button/button_detail.css">
+    <link rel="stylesheet" href="menu/menu.css">
+    <link rel="stylesheet" href="menu/menu__link.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="new-items/new-items.css">
+    <link rel="stylesheet" href="new-items/new-items__table.css">
+    <link rel="stylesheet" href="features/features.css">
+
   </head>
   <body>
 
@@ -22,66 +33,70 @@
       </div>
     </div>
 
-    <div class="container container_size_s new-items clearfix">
-      <h2 class="heading-two">Новинки</h2>
-      <div class="new-items__column clearfix">
-        <h3 class="heading-two">Вахтёр</h3>
-        <table class="new-items__table">
-          <caption>Ржаной хлеб, Вода, Солод, Соль</caption>
-          <tr>
-            <td>Алк.</td>
-            <td>&lt; 1%</td>
-          </tr>
-          <tr>
-            <td>Ккал</td>
-            <td>35</td>
-          </tr>
-        </table>
-        <div class="new-items__img">
-          <img src="img/bottle-left.jpg">
+    <div class="container container_size_s">
+      <div class="new-items clearfix">
+        <h2 class="heading heading__main">Новинки</h2>
+        <div class="new-items__column clearfix">
+          <h3 class="heading heading__main heading_items">Вахтёр</h3>
+          <table class="new-items__table">
+            <caption>Ржаной хлеб, Вода, Солод, Соль</caption>
+            <tr>
+              <td>Алк.</td>
+              <td>&lt; 1%</td>
+            </tr>
+            <tr>
+              <td>Ккал</td>
+              <td>35</td>
+            </tr>
+          </table>
+          <img src="img/bottle-left.jpg"  class="new-items__img">
+          <p>Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!</p>
+          <a class="button button_detail" href="#">Подробнее</a> <a class="button button_buy" href="#">Купить</a> <b>150 Р.</b>
         </div>
-        <p>Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!</p>
-        <a class="button button_detail" href="#">Подробнее</a> <a class="button button_buy" href="#">Купить</a> <b>150 Р.</b>
+        <div class="new-items__column clearfix">
+          <h3 class="heading heading__main heading_items">Романтик</h3>
+          <table class="new-items__table">
+            <caption>Ячменный хлеб, Вода, Солод, Апельсин</caption>
+            <tr>
+              <td>Алк.</td>
+              <td>&lt; 0,5%</td>
+            </tr>
+            <tr>
+              <td>Ккал</td>
+              <td>27</td>
+            </tr>
+          </table>
+          <img src="img/bottle-right.jpg" class="new-items__img">
+          <p>Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня.</p>
+          <a class="button button_detail" href="#">Подробнее</a> <a class="button button_buy" href="#">Купить</a> <b>90 Р.</b>
+        </div>
       </div>
-      <div class="new-items__column clearfix">
-        <h3 class="heading-two">Романтик</h3>
-        <table class="new-items__table">
-          <caption>Ячменный хлеб, Вода, Солод, Апельсин</caption>
-          <tr>
-            <td>Алк.</td>
-            <td>&lt; 0,5%</td>
-          </tr>
-          <tr>
-            <td>Ккал</td>
-            <td>27</td>
-          </tr>
-        </table>
-        <div class="new-items__img">
-          <img src="img/bottle-right.jpg">
-        </div>
-        <p>Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня.</p>
-        <a class="button button_detail" href="#">Подробнее</a> <a class="button button_buy" href="#">Купить</a> <b>90 Р.</b>
+    </div>
+    
+    <div class="features">
+      <div class="container container_size_m ">
+        <ul class="features__list clearfix">
+          <li class="feature__item">
+            <img src="img/icon-brew.png">
+            <h2 class="heading heading__features">Варим сами</h2>
+            <p>Вот этими самыми руками. Экспериментируем и творим, что хотим.</p>
+          </li>
+          <li class="feature__item">
+            <img src="img/icon-matreshka.png">
+            <h2 class="heading heading__features">Своё, родное</h2>
+            <p>Не заработка ради, а импортозамещения для. Поднимаем производство.</p>
+          </li>
+          <li class="feature__item">
+            <img src="img/icon-thumbsup.png">
+            <h2 class="heading heading__features">Не экономим</h3>
+            <p>Человек это то, что он ест и пьёт. У нас только качественные ингредиенты.</p>
+          </li>
+        </ul>
       </div>
     </div>
 
-    <div class="features">
-      <ul>
-        <li>
-          <h2 class="">Варим сами</h2>
-          <p>Вот этими самыми руками. Экспериментируем и творим, что хотим.</p>
-        </li>
-        <li>
-          <h2>Своё, родное</h2>
-          <p>Не заработка ради, а импортозамещения для. Поднимаем производство.</p>
-        </li>
-        <li>
-          <h2>Не экономим</h3>
-          <p>Человек это то, что он ест и пьёт. У нас только качественные ингредиенты.</p>
-        </li>
-      </ul>
-    </div>
     <div class="our_history">
-      <h2 class="heading-two">Немного истории</h2>
+      <h2 class="heading-main">Немного истории</h2>
       <dl>
         <dt>Происхождение кваса <i>Источник: <a href="#">ru.wikipedia.org</a></i></dt>
         <dd>
@@ -96,7 +111,7 @@
       </dl>
     </div>
     <div class="press">
-      <h2 class="heading-two">Пресса о нас</h2>
+      <h2 class="heading-main">Пресса о нас</h2>
       <blockquote>
         <p>Сегодня мы провели дегустацию чего-то действительно новенького — крафтового кваса. Да, да, вы не ослышались! Спасибо Арсену и Руслану за то, что предоставили целую бочку своего напитка!
         </p>
@@ -104,7 +119,7 @@
       </blockquote>
     </div>
     <div>
-      <h2 class="heading-two">Ассортимент</h2>
+      <h2 class="heading-main">Ассортимент</h2>
       <table>
         <tr>
           <th>Название</th>
@@ -144,7 +159,7 @@
       </table>
     </div>
     <div>
-      <h2 class="heading-two">Заказать</h2>
+      <h2 class="heading-main">Заказать</h2>
       <p>Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
       <form action="#" method="POST">
         <label for="fullname">Представьтесь:</label>
