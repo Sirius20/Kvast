@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="button/button.css">
     <link rel="stylesheet" href="button/button_buy.css">
     <link rel="stylesheet" href="button/button_detail.css">
+    <link rel="stylesheet" href="button/button_read.css">
     <link rel="stylesheet" href="menu/menu.css">
     <link rel="stylesheet" href="menu/menu__link.css">
     <link rel="stylesheet" href="header.css">
@@ -15,6 +16,8 @@
     <link rel="stylesheet" href="new-items/new-items__table.css">
     <link rel="stylesheet" href="features/features.css">
     <link rel="stylesheet" href="history/history.css">
+    <link rel="stylesheet" href="review/review.css">
+    <link rel="stylesheet" href="assortment/assortment.css">
 
   </head>
   <body>
@@ -114,55 +117,62 @@
       </div>
     </div>
 
-      <div class="press">
-        <h2 class="heading heading__main">Пресса о нас</h2>
-        <blockquote>
-          <p>Сегодня мы провели дегустацию чего-то действительно новенького — крафтового кваса. Да, да, вы не ослышались! Спасибо Арсену и Руслану за то, что предоставили целую бочку своего напитка!
-          </p>
-          <cite>Газета столичный Стольник</cite> <a class="button" href="#">Читать далее</a>
-        </blockquote>
+      <div class="review">
+          <div class="container container_size_s review__container">
+            <h2 class="heading heading__main">Пресса о нас</h2>
+            <blockquote class="review__qoute clearfix">
+              <img src="img/quotes.png" class="review__qoute-icon">
+              <p>Сегодня мы провели дегустацию чего-то действительно новенького — крафтового кваса. Да, да, вы не ослышались! Спасибо Арсену и Руслану за то, что предоставили целую бочку своего напитка!
+              </p>
+              <a class="button button_read" href="#">Читать далее</a>
+              <cite class="heading heading__mini review__author">Газета столичный Стольник</cite>
+            </blockquote>
+          </div>
       </div>
     
-    <div>
-      <h2 class="heading heading__main">Ассортимент</h2>
-      <table>
-        <tr>
-          <th>Название</th>
-          <th>Алк.</th>
-          <th>Ккал</th>
-          <th>Объём</th>
-          <th>Стоимость</th>
-        </tr>
-        <tr>
-          <td>Классика</td>
-          <td>&lt; 1,2%</td>
-          <td>33</td>
-          <td>330 мл</td>
-          <td>120 Р.</td>
-        </tr>
-        <tr>
-          <td>Шабаш</td>
-          <td>&gt; 1,2%</td>
-          <td>45</td>
-          <td>330 мл</td>
-          <td>250 Р.</td>
-        </tr>
-        <tr>
-          <td>Вахтёр <sup>Новинка</sup></td>
-          <td>&lt; 1%</td>
-          <td>35</td>
-          <td>0,5 л</td>
-          <td>150 Р.</td>
-        </tr>
-        <tr>
-          <td>Романтик <sup>Новинка</sup></td>
-          <td>&lt; 0,5%</td>
-          <td>27</td>
-          <td>0,5 л</td>
-          <td>90 Р.</td>
-        </tr>
-      </table>
+    <div class="container container_size_s">
+      <div class="assortment">
+        <h2 class="heading heading__main">Ассортимент</h2>
+        <table class="assortment__table">
+          <tr class="assortment__string">
+            <th>Название</th>
+            <th>Алк.</th>
+            <th>Ккал</th>
+            <th>Объём</th>
+            <th class="assortment__cost">Стоимость</th>
+          </tr>
+          <tr class="assortment__string">
+            <td class="assortment__name">Классика</td>
+            <td>&lt; 1,2%</td>
+            <td>33</td>
+            <td>330 мл</td>
+            <td class="assortment__cost">120 Р.</td>
+          </tr>
+          <tr class="assortment__string">
+            <td class="assortment__name">Шабаш</td>
+            <td>&gt; 1,2%</td>
+            <td>45</td>
+            <td>330 мл</td>
+            <td class="assortment__cost">250 Р.</td>
+          </tr>
+          <tr class="assortment__string">
+            <td class="assortment__name">Вахтёр <sup class="assortment__new">Новинка</sup></td>
+            <td>&lt; 1%</td>
+            <td>35</td>
+            <td>0,5 л</td>
+            <td class="assortment__cost">150 Р.</td>
+          </tr>
+          <tr class="assortment__string">
+            <td class="assortment__name">Романтик <sup class="assortment__new">Новинка</sup></td>
+            <td>&lt; 0,5%</td>
+            <td>27</td>
+            <td>0,5 л</td>
+            <td class="assortment__cost">90 Р.</td>
+          </tr>
+        </table>
+      </div>
     </div>
+
     <div>
       <h2 class="heading heading__main">Заказать</h2>
       <p>Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>

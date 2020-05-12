@@ -1,0 +1,29 @@
+.review {
+  min-width: 1200px;
+  background-color: #ede5d8;
+  padding-top: 1px;
+  padding-bottom: 90px;
+}
+
+.review__container {
+  position: relative;
+}
+
+.review__qoute {
+  margin: 0;
+  padding-top: 15px;
+}
+.review__qoute p {
+  width: 690px;
+  padding-bottom: 38px;
+}
+
+.review__qoute-icon {
+  position: absolute;
+  left: -105px;
+  top: 140px;
+}
+
+.review__author {
+  float: right;
+}
