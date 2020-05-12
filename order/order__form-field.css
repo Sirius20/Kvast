@@ -1,0 +1,32 @@
+.order__form-field {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px 10px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  margin-top: 11px;
+
+  font: inherit;
+  line-height: 20px;
+  color: #a07f4b;
+  text-transform: uppercase;
+
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.order__form-field option {
+  background-color: #e5b66c;
+  font: inherit;
+}
+
+.order__form-field:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.order__form-field:focus {
+  background-color: white;
+  color: black;
+  outline: none;
+}
+

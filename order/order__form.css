@@ -1,0 +1,23 @@
+.order__form {
+  width: 630px;
+  text-transform: uppercase;
+  line-height: 20px; 
+  color: black;
+  font-weight: bold;
+}
+
+.order__form-left {
+  float: left;
+  width: 290px;
+}
+
+.order__form-right {
+  float: right;
+  width: 290px;
+}
+
+.order__form-textarea {
+  height: 120px;
+  margin-bottom: 45px;
+  resize: none;
+}

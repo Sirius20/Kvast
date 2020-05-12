@@ -1,5 +1,5 @@
 body {
-  min-width: 820px;
+  min-width: 1040px;
   font-family: "Arial", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -16,26 +16,16 @@ p {
 .heading {
   font-family: "Arial", sans-serif;
   font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
   color: black;
   text-transform: uppercase;
   margin: 0;
 }
-.heading__main {
-  font-size: 40px;
-  line-height: 60px;
-  margin-top: 80px;
-  margin-bottom: 60px;
-}
 
-.heading_items {
-  padding-bottom: 30px;
-  margin: 0;
-}
-
-.heading__mini {
+.heading_mini {
   font-size: 20px;
   line-height: 30px;
-  padding-bottom: 20px;
   font-style: normal;
 }
 

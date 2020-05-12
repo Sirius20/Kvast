@@ -1,0 +1,36 @@
+.review {
+  background-color: #ede5d8;
+  padding-top: 1px;
+  padding-bottom: 90px;
+}
+
+.review__heading_main {
+  margin-top: 80px;
+  margin-bottom: 85px;
+}
+
+.review__heading_mini {
+  float: right;
+  margin-top: 10px;
+}
+
+.review__qoute {
+  position: relative;
+  margin: 0;
+}
+
+.review__qoute::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -105px;
+  width: 41px;
+  height: 31px;
+
+  background-image: url("../img/quotes.png");
+}
+
+.review__qoute p {
+  width: 690px;
+  padding-bottom: 38px;
+}

@@ -1,8 +1,12 @@
 .features {
-  min-width: 1200px;
   background-color: #ffcb78;
   padding-top: 80px;
-  padding-bottom: 85px;
+  padding-bottom: 90px;
+}
+
+.features__heading {
+  margin-top: 100px;
+  margin-bottom: 20px; 
 }
 
 .features__list {
@@ -12,24 +16,47 @@
 }
 
 .feature__item {
-  border-right: 1px solid #e5b66c;
-  padding-right: 97px;
-  padding-left: 99px;
+  position: relative;
+
   float: left;
-  width: 205px;
-  height: 245px;
-  color: #404040;
+  width: 210px;
+  padding-right: 95px;
+  padding-left: 95px;
+
+  border-right: 1px solid #e5b66c;
+}
+
+.feature__item:first-child {
+  padding-left: 0;
 }
 
 .feature__item:last-child {
   border-right: none;
   padding-right: 0;
-  width: 210px
-}
-.feature__item:first-child {
-  padding-left: 0;
 }
 
-.feature__img {
-  margin-bottom: 30px;
+.feature__item::before {
+  content: "";
+  position: absolute;
+}
+
+.feature__img-handmade::before {
+  width: 50px;
+  height: 68px;
+
+  background: url("../img/icon-brew.png") no-repeat;
+}
+
+.feature__img-native::before {
+  width: 46px;
+  height: 65px;
+
+  background: url("../img/icon-matreshka.png") no-repeat;
+}
+
+.feature__img-quality::before {
+  width: 63px;
+  height: 58px;
+
+  background: url("../img/icon-thumbsup.png") no-repeat;
 }
