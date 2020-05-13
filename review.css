@@ -6,7 +6,7 @@
 
 .review__heading_main {
   margin-top: 80px;
-  margin-bottom: 85px;
+  margin-bottom: 75px;
 }
 
 .review__heading_mini {
@@ -32,5 +32,5 @@
 
 .review__qoute p {
   width: 690px;
-  padding-bottom: 38px;
+  margin-bottom: 35px;
 }

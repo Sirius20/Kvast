@@ -15,28 +15,39 @@
     <link rel="stylesheet" href="new-items/new-items.css">
     <link rel="stylesheet" href="new-items/new-items__table.css">
     <link rel="stylesheet" href="features/features.css">
-    <link rel="stylesheet" href="history/history.css">
+    <link rel="stylesheet" href="features/feature__img.css">
+    <link rel="stylesheet" href="history.css">
     <link rel="stylesheet" href="review.css">
     <link rel="stylesheet" href="assortment.css">
     <link rel="stylesheet" href="order/order.css">
     <link rel="stylesheet" href="order/order__checkbox.css">
     <link rel="stylesheet" href="order/order__form.css">
     <link rel="stylesheet" href="order/order__form-field.css">
+    <link rel="stylesheet" href="footer/footer.css">
+    <link rel="stylesheet" href="footer/footer__social.css">
+    <link rel="stylesheet" href="footer/footer__bottom.css">
 
   </head>
   <body>
-
     <div class="header">
+
       <div class="container container_size_s">
+
         <div class="header__nav clearfix">
-          <div class="logo"><img src="img/logo.png" alt="Кваст" width="140px" height="77px"></div>
+
+          <div class="logo"><img src="img/logo.png" alt="Кваст" width="140px" height="77px">
+          </div>
+
           <ul class="menu">
-            <li class="menu__item"><a class="menu__link" href="#">История</a></li>
-            <li class="menu__item"><a class="menu__link" href="#">Производство</a></li>
-            <li class="menu__item"><a class="menu__link" href="#">Ассортимент</a></li>
-            <li class="menu__item"><a class="menu__link" href="#">Где купить</a></li>
+
+            <li class="menu__item"><a class="menu__link" href="#history">История</a></li>
+            <li class="menu__item"><a class="menu__link" href="#features">Производство</a></li>
+            <li class="menu__item"><a class="menu__link" href="#assortment">Ассортимент</a></li>
+            <li class="menu__item"><a class="menu__link" href="#order">Где купить</a></li>
+          
           </ul>
         </div>
+
         <div class="header__promo">Крафтовый квас <br>всему голова!</div>
       </div>
     </div>
@@ -51,57 +62,86 @@
         <div class="new-items__column clearfix">
           
           <h3 class="heading new-items__heading_mini">Вахтёр</h3>
-          <table class="new-items__table">
-            <caption>Ржаной хлеб, Вода, Солод, Соль</caption>
-            <tr>
-              <td>Алк.</td>
-              <td>&lt; 1%</td>
-            </tr>
-            <tr>
-              <td>Ккал</td>
-              <td>35</td>
-            </tr>
-          </table>
-          <img src="img/bottle-left.jpg"  class="new-items__img">
-          <p>Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!</p>
-          <a class="button button_detail" href="#">Подробнее</a> <a class="button button_buy" href="#">Купить</a> <b>150 Р.</b>
-        </div>
+
+          <div class="new-items__info">
+            <table class="new-items__table">
+              <tr>
+                <td>Алк.</td>
+                <td>&lt; 1%</td>
+              </tr>
+              <tr>
+                <td>Ккал</td>
+                <td>35</td>
+              </tr>
+            </table>
+
+            <p class="new-items__ingredients">Ржаной хлеб, Вода, Солод, Соль</p>
+
+            </div>
+
+            <img src="img/bottle-left.jpg"  class="new-items__img">
+
+            <p>Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!</p>
+            
+            <a class="button button_detail" href="#">Подробнее</a>
+            <a class="button button_buy" href="#">Купить</a> <b>150 Р.</b>
+          </div>
 
         <div class="new-items__column clearfix">
+
           <h3 class="heading new-items__heading_mini">Романтик</h3>
-          <table class="new-items__table">
-            <caption>Ячменный хлеб, Вода, Солод, Апельсин</caption>
-            <tr>
-              <td>Алк.</td>
-              <td>&lt; 0,5%</td>
-            </tr>
-            <tr>
-              <td>Ккал</td>
-              <td>27</td>
-            </tr>
-          </table>
+
+          <div class="new-items__info">
+
+            <table class="new-items__table">
+              <tr>
+                <td>Алк.</td>
+                <td>&lt; 0,5%</td>
+              </tr>
+              <tr>
+                <td>Ккал</td>
+                <td>27</td>
+              </tr>
+            </table>
+
+            <p class="new-items__ingredients">Ячменный хлеб, Вода, Солод, Апельсин</p>
+          
+          </div>
+
           <img src="img/bottle-right.jpg" class="new-items__img">
+          
           <p>Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня.</p>
+          
           <a class="button button_detail" href="#">Подробнее</a> <a class="button button_buy" href="#">Купить</a> <b>90 Р.</b>
+        
         </div>
       </div>
     </div>
     
-    <div class="features">
+    <div class="features"><a name="features"></a>
+
       <div class="container container_size_m ">
+
         <ul class="features__list clearfix">
+
           <li class="feature__item feature__img-handmade">
             <h2 class="heading heading_mini features__heading">Варим сами</h2>
+
             <p>Вот этими самыми руками. Экспериментируем и творим, что хотим.</p>
           </li>
+
           <li class="feature__item feature__img-native">
             <h2 class="heading heading_mini features__heading">Своё, родное</h2>
+
             <p>Не заработка ради, а импортозамещения для. Поднимаем производство.</p>
           </li>
+
           <li class="feature__item feature__img-quality">
-            <h2 class="heading heading_mini features__heading">Не экономим</h3>
+            <h2 class="heading heading_mini features__heading">Не экономим</h2>
+
             <p>Человек это то, что он ест и пьёт. У нас только качественные ингредиенты.</p>
           </li>
+
         </ul>
       </div>
     </div>
@@ -110,16 +150,23 @@
 
       <div class="container container_size_s">
       
-        <h2 class="heading history__heading_main">Немного истории</h2>
+        <h2 class="heading history__heading_main"><a name="history">Немного истории</a></h2>
+        
         <dl class="history__block">
+
           <dt class="heading heading_mini history__heading_mini">Происхождение кваса <i class="history__reference">Источник: <a class="history__link" href="#">ru.wikipedia.org</a></i></dt>
+          
           <dd class="history__description clearfix">
             <img src="img/wiki-1.png" class="history__img">
+
             <p>Квас на Руси появился в X-XI веке. Само слово «квас» тоже имеет древнерусское происхождение. Помимо России квас готовят в Белоруссии, Сербии, Македонии, Словакии и многих других странах, но называется он везде одинаково — квас.</p>
           </dd>
+
           <dt class="heading heading_mini history__heading_mini">Классификация кваса <i class="history__reference">Источник: <a class="history__link" href="#">ru.wikipedia.org</a></i></dt>
+          
           <dd class="history__description clearfix">
             <img src="img/wiki-2.png" class="history__img">
+
             <p>По российскому ГОСТу для промышленного изготовления — это напиток с объёмной долей этилового спирта не более 1,2%, изготовленный в результате незавершённого спиртового и молочнокислого брожения сусла.</p>
           </dd>
         </dl>
@@ -127,21 +174,27 @@
     </div>
 
     <div class="review">
+
       <div class="container container_size_s">
+
         <h2 class="heading review__heading_main">Пресса о нас</h2>
+
         <blockquote class="review__qoute">
           <p>Сегодня мы провели дегустацию чего-то действительно новенького — крафтового кваса. Да, да, вы не ослышались! Спасибо Арсену и Руслану за то, что предоставили целую бочку своего напитка!
           </p>
-          <a class="button button_read" href="#">Читать далее</a>
+
           <cite class="heading heading_mini review__heading_mini">Газета столичный Стольник</cite>
+          <a class="button button_read" href="#">Читать далее</a>
+
         </blockquote>
         </div>
     </div>
       
     <div class="assortment">
+
       <div class="container container_size_s">
 
-        <h2 class="heading assortment__heading">Ассортимент</h2>
+        <h2 class="heading assortment__heading"><a name="assortment">Ассортимент</a></h2>
 
         <table class="assortment__table">
 
@@ -192,7 +245,7 @@
       
       <div class="container container_size_s">
 
-        <h2 class="heading order__heading">Заказать</h2>
+        <h2 class="heading order__heading"><a name="order">Заказать</a></h2>
 
         <p class="order__text">Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
         <form class="order__form" action="#" method="POST">
@@ -219,19 +272,20 @@
           <label for="volume">Объём заказа:</label><br>
           <select class="order__form-field" id="volume" name="volume-order">
             <option value="5-10">От 5 до 10 баррелей в неделю</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
+            <option value="5">5 баррелей</option>
+            <option value="6">6 баррелей</option>
+            <option value="7">7 баррелей</option>
+            <option value="8">8 баррелей</option>
+            <option value="9">9 баррелей</option>
+            <option value="10">10 баррелей</option>
           </select><br>
 
           <label for="comment">Доп. комментарий:</label>
           <textarea class="order__form-field order__form-textarea" id="comment" name="comment"></textarea><br>
           
-          <label class="order__checkbox-label" for="agree">Я согласен получать квасную рассылку
+          <label class="order__checkbox-label" for="agree">
             <input class="order__checkbox" type="checkbox" name="agree" id="agree" checked>
+            Я согласен получать квасную рассылку
             <span class="order__checkbox-checkmark"></span>
           </label><br>
 
@@ -241,16 +295,41 @@
     </div>
 
     <div class="footer">
-      <span class="logo"><img src="img/logo.png" alt="Кваст"></span>
-      <ul>
-        <li><a href="#">История</a></li>
-        <li><a href="#">Производство</a></li>
-        <li><a href="#">Ассортимент</a></li>
-        <li><a href="#">Где купить</a></li>
-      </ul>
-      <a href="#">Инстаграм</a> <a href="#">Фейсбук</a> <a href="#">Вконтакте</a>
-      <p>При перепечатке материалов ссылка на сайт обязательна!</p>
-      <a href="#"><img src="img/htmlacademy.png"></a><b>Разработчик: </b><a href="#">HTML Academy</a>
+
+      <div class="container container_size_m">
+
+        <div class="footer__nav clearfix">
+
+          <span class="logo"><img src="img/logo.png" alt="Кваст"></span>
+
+          <ul class="menu footer__menu">
+
+            <li class="menu__item"><a class="menu__link" href="#history">История</a></li>
+            <li class="menu__item"><a class="menu__link" href="#features">Производство</a></li>
+            <li class="menu__item"><a class="menu__link" href="#assortment">Ассортимент</a></li>
+            <li class="menu__item"><a class="menu__link" href="#order">Где купить</a></li>
+
+          </ul>
+        </div>
+
+        <div class="footer__bottom clearfix">
+
+          <div class="footer__social clearfix">
+
+            <a class="footer__social-in" href="#">Инстаграм</a>
+
+            <a class="footer__social-fb" href="#">Фейсбук</a>
+
+            <a class="footer__social-vk" href="#">Вконтакте</a>
+
+          </div>
+
+          <p class="footer__annotation">При перепечатке материалов ссылка на сайт обязательна!</p>
+
+          <a class="footer__logo" href="https://htmlacademy.ru"><img src="img/htmlacademy.png"></a>
+        
+        </div>
+      </div>
     </div>
   </body>
 </html>

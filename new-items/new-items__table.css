@@ -1,9 +1,6 @@
 .new-items__table {
   border-collapse: collapse;
-  float: right;
-  position: absolute;
-  right: 30px;
-  top: 85px;
+  width: 150px;
 }
 .new-items__table td{
   border: 1px solid #e5e5e5;
@@ -14,12 +11,4 @@
   padding-left: 10px;
   text-transform: uppercase;
   color: black;
-}
-
-.new-items__table caption {
-  caption-side: bottom;
-  text-align: left;
-  font-size: 14px;
-  line-height: 24px;
-  margin-top: 10px;
 }

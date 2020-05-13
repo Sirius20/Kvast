@@ -1,0 +1,45 @@
+.footer__bottom {
+  margin-top: 47px;
+}
+
+.footer__annotation {
+  float: left;
+  margin-left: 90px;
+  margin-top: 12px;
+  width: 200px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #989898;
+}
+
+.footer__logo {
+  position: relative;
+  float: right;
+  width: 70px;
+  height: 66px;
+
+  vertical-align: top;
+
+  background-color: #1b1b1b;
+  border: 1px solid rgba(255, 203, 120, 0.1);
+}
+
+.footer__logo img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  margin: auto;
+}
+
+.footer__logo:hover {
+  z-index: 1;
+
+  border-color: rgba(255, 203, 120, 0.3);
+}
+
+.footer__logo:active {
+  opacity: 0.5;
+}

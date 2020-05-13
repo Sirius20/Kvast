@@ -1,0 +1,20 @@
+.feature__img-handmade::before {
+  width: 50px;
+  height: 68px;
+
+  background: url("../img/icon-brew.png") no-repeat;
+}
+
+.feature__img-native::before {
+  width: 46px;
+  height: 65px;
+
+  background: url("../img/icon-matreshka.png") no-repeat;
+}
+
+.feature__img-quality::before {
+  width: 63px;
+  height: 58px;
+
+  background: url("../img/icon-thumbsup.png") no-repeat;
+}
