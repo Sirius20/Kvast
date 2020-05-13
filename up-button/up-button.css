@@ -1,0 +1,36 @@
+.up-button {
+  display: none;
+  position: fixed;
+  z-index: 1;
+
+  bottom: 100px;
+  right: 40px;
+
+  width: 65px;
+  height: 65px;
+
+  border-radius: 50%;
+  border: 2px solid rgba(131, 71, 0, 0.6);
+  outline: none;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #834700;
+
+  font-size: 36px;
+  font-weight: bold;
+
+  text-align: center;
+  vertical-align: middle;
+
+  cursor: pointer;
+}
+
+.up-button:hover {
+  background-color: rgba(255, 203, 120, 0.8);
+  color: #6a3900;
+  border: 5px solid #6a3900;
+}
+
+.up-button_show {
+  display: inline-block;
+}

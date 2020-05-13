@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
   min-width: 1040px;
   font-family: "Arial", sans-serif;
